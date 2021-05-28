@@ -14,6 +14,11 @@ module.exports = {
       270: '270deg',
       360: '360deg',
     },
+    extend: {
+      colors: {
+        'tech-section': '#e3e9f2',
+      },
+    },
   },
   variants: {
     extend: {},

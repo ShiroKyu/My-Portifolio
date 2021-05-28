@@ -32,7 +32,6 @@ function HeroSection() {
         </div>
 
       </div>
-      asdadasfasfas
     </>
   );
 }

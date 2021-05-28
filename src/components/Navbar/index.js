@@ -4,8 +4,6 @@ import {
   FaHome, FaFolder, FaCode, FaUser, FaAddressCard, FaBookOpen, FaCompass,
 } from 'react-icons/fa';
 
-import './style.css';
-
 export default class Navbar extends React.Component {
   constructor(props) {
     super(props);
