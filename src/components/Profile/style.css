@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700");
+
+.profile-title {
+  @apply p-4 uppercase text-xl font-bold text-green-500;
+}
+
+.p-style {
+  @apply px-4 text-gray-700;
+}
+
+.h2-style {
+  @apply py-4 text-lg text-gray-500;
+}
+
+/* h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 700;
+
+  padding: 20px 0;
+} */
+
+.skills {
+  width: 100%;
+  position: relative;
+  float: left;
+  padding: 30px 0;
+}
+
+.skills ul {
+  padding-top: 30px;
+}
+
+.skills li {
+  margin-bottom: 50px;
+  background: #dedede;
+  height: 6px;
+}
+
+.skills em {
+  font-size: 18px;
+  position: relative;
+  top: -30px;
+}
+
+.skills span {
+  height: inherit;
+  background-color: #94c245;
+  background: linear-gradient(90deg, #76b82a, #aecd60);
+  position: absolute;
+}
+
+.html5 {
+  width: 90%;
+  animation: html5 2s ease-out;
+}
+.css3 {
+  width: 70%;
+  animation: css3 2s ease-out;
+}
+.js {
+  width: 90%;
+  animation: js 2s ease-out;
+}
+.tailwind {
+  width: 75%;
+  animation: tailwind 2s ease-out;
+}
+.react {
+  width: 70%;
+  animation: react 2s ease-out;
+}
+.node {
+  width: 80%;
+  animation: node 2s ease-out;
+}
+.java {
+  width: 40%;
+  animation: java 2s ease-out;
+}
+.python {
+  width: 60%;
+  animation: python 2s ease-out;
+}
+.sql {
+  width: 75%;
+  animation: sql 2s ease-out;
+}
+
+@keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes tailwind {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes sql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 75%;
+  }
+}

@@ -16,7 +16,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        'tech-section': '#e3e9f2',
+        'section-gray-bg': '#e3e9f2',
+      },
+      screens: {
+        xsm: '320px',
       },
     },
   },

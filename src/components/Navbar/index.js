@@ -23,10 +23,11 @@ export default class Navbar extends React.Component {
     const { toggled } = this.state;
 
     return (
-      <section className="fixed w-full font-body">
+      <section className="fixed font-body z-50">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`menu-toggle cursor-pointer transition ease-in duration-300 ${toggled ? 'transform rotate-90' : ''}`}
+          className={`menu-toggle cursor-pointer transition ease-in duration-300 
+          ${toggled ? 'transform rotate-90' : ''}`}
           width="40"
           fill="none"
           viewBox="0 0 24 24"
@@ -49,31 +50,42 @@ export default class Navbar extends React.Component {
               <FaCompass className="mr-2 transform transition-all ease-in duration-500 hover:rotate-360" />
               <p>Menu</p>
             </li>
-            <li className="navbar-item">
-              <FaHome className="mr-2" />
-              <p>Início</p>
-            </li>
-            <li className="navbar-item">
-              <FaCode className="mr-2" />
-              Principais tecnologias
-            </li>
-            <li className="navbar-item">
-              <FaUser className="mr-2" />
-              Sobre
-            </li>
-            <li className="navbar-item">
-              <FaBookOpen className="mr-2" />
-              Resumo
-            </li>
-            <li className="navbar-item">
-              <FaFolder className="mr-2" />
-              Portifólio
-            </li>
-            <li className="navbar-item">
-              <FaAddressCard className="mr-2" />
-              Contato
-            </li>
-
+            <a href="#hero-section">
+              <li className="navbar-item">
+                <FaHome className="mr-2" />
+                <p>Início</p>
+              </li>
+            </a>
+            <a href="#tech-section">
+              <li className="navbar-item">
+                <FaCode className="mr-2" />
+                Skills
+              </li>
+            </a>
+            <a href="#about-section">
+              <li className="navbar-item">
+                <FaUser className="mr-2" />
+                Sobre
+              </li>
+            </a>
+            <a href="#profile-section">
+              <li className="navbar-item">
+                <FaBookOpen className="mr-2" />
+                Resumo
+              </li>
+            </a>
+            <a href="#portifolio-section">
+              <li className="navbar-item">
+                <FaFolder className="mr-2" />
+                Portifólio
+              </li>
+            </a>
+            <a href="#contact-section">
+              <li className="navbar-item">
+                <FaAddressCard className="mr-2" />
+                Contato
+              </li>
+            </a>
           </ul>
         </nav>
       </section>

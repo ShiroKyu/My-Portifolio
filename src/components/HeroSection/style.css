@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.welcome-title {
+  @apply p-4 uppercase text-sm md:text-3xl font-bold text-green-500;
+}
+
+.main-title {
+  @apply p-4 text-5xl md:text-7xl font-bold text-white;
+}
+
+.p-style {
+  @apply py-4 text-gray-700;
+}
+
 .hero-section {
   font-family: 'Roboto', sans-serif;
 
@@ -5,13 +21,12 @@
   height: 100vh;
   background-size: cover;
   background-position: center center;
-  background-image: linear-gradient(90deg, rgb(0 0 0 / 89%), rgb(6 6 6 / 84%)),
+  background-image: linear-gradient(90deg, rgb(0 0 0), rgb(6 6 6 / 93%)),
     url("images/hero-image.jpg");
   background-attachment: fixed;
-
   overflow-x: hidden;
 }
-
+/* 
 .introductory-section {
   display: flex;
   flex-direction: column;
@@ -26,4 +41,4 @@
 
 .introductory-section h1 {
   text-align: center;
-}
+} */
